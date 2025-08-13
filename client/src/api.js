@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-	baseURL: 'https://makemybill-ctgr.vercel.app/api',
+	baseURL: 'https://makemybill-ctgr-hbvw6hlvq-pankajgupta-nitjsrs-projects.vercel.app/api',
 });
 
 api.interceptors.request.use((config) => {
